@@ -13,7 +13,7 @@ def lines = readFile("file")
 println "-----------------------"
 println lines
 
-lines.split('\\n')
+lines.split("\n")
 
 println lines
 
