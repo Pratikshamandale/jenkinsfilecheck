@@ -13,11 +13,11 @@ def lines = readFile("file")
 println "-----------------------"
 println lines
 
-String[] l=lines.split("\n")
+//String[] l=lines.split("\n")
 
+String[] linesFile = new String[] {lines}
 
-
-println l
+println linesFile
 println lines
 
 //sh "op=`ls`"
