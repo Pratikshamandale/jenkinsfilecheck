@@ -15,7 +15,7 @@ println lines
 
 //String[] l=lines.split("\n")
 
-String[] linesFile = lines.split(" ")
+String[] linesFile = lines.split("l")
 
 println linesFile
 println lines
