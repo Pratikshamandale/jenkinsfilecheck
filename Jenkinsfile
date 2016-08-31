@@ -12,6 +12,8 @@ def lines = readFile("file")
 
 println "-----------------------"
 println lines
+
+lines.tokenize('\n')
 //sh "op=`ls`"
 
 //println op
