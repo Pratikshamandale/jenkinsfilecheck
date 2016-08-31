@@ -7,13 +7,13 @@ sh "echo hello > file"
 sh "echo hello >> file"
 
 //File file = new File("/tmp/author")
-//def lines = readFile("/tmp/author").readLines()
+def lines = readFile("file")
 
 //sh "op=`ls`"
 
 //println op
 
-def lines="git log --after='2016-08-30' | grep Author | cut -d'<' -f2|cut -d'>' -f1".execute()
+//def lines="git log --after='2016-08-30' | grep Author | cut -d'<' -f2|cut -d'>' -f1".execute()
 
 
 //println lines[0]
