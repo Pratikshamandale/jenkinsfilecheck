@@ -4,7 +4,7 @@ node('master')
 {
 
 sh "echo hello > file"
-sh "echo hello >> file"
+sh "echo hello2 >> file"
 
 //File file = new File("/tmp/author")
 def lines = readFile("file")
@@ -14,6 +14,9 @@ println "-----------------------"
 println lines
 
 lines.tokenize('\n')
+
+println lines[0]
+
 //sh "op=`ls`"
 
 //println op
