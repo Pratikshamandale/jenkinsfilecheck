@@ -15,7 +15,7 @@ println lines
 
 lines.tokenize('\n')
 
-println lines[0]
+println lines
 
 //sh "op=`ls`"
 
